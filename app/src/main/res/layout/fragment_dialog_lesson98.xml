@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WWV">
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/WW"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/message_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout style="@style/WW">
+
+        <Button
+            android:id="@+id/Lesson98_Yes_Btn"
+            style="@style/WW"
+            android:layout_margin="10dp"
+            android:text="@string/yes_text" />
+        <Button
+            android:id="@+id/Lesson98_No_Btn"
+            style="@style/WW"
+            android:layout_margin="10dp"
+            android:text="@string/no_text" />
+        <Button
+            android:id="@+id/Lesson98_Maybe_Btn"
+            style="@style/WW"
+            android:layout_margin="10dp"
+            android:text="@string/maybe_text" />
+
+    </LinearLayout>
+
+</LinearLayout>

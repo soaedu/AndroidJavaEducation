@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM"
+    android:background="#cccccc">
+
+    <TextView
+        android:id="@+id/Fragment_Details_Text_Tv"
+        style="@style/WW" />
+
+</FrameLayout>

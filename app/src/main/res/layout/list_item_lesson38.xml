@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MWH">
+
+    <LinearLayout
+        style="@style/MWH"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/Lesson38_ListView_IV"
+            android:layout_width="30dp"
+            android:layout_height="22dp"
+            android:scaleType="fitCenter" />
+        <TextView
+            android:id="@+id/Lesson38_ListView_TV"
+            style="@style/WW"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:text="@string/text_view_text" />
+        <FrameLayout style="@style/MW">
+
+            <TextView
+                android:id="@+id/Lesson38_Text_TV"
+                style="@style/WW"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textSize="20sp"
+                android:text="@string/text_view_text" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

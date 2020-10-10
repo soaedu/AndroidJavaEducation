@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV">
+
+    <LinearLayout
+        style="@style/Navigation_LL">
+
+        <LinearLayout
+            android:id="@+id/Lesson22_ArrowBackWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="70dp">
+
+            <ImageView style="@style/Navigation_ArrowBack_IV" />
+
+        </LinearLayout>
+        <TextView
+            style="@style/Navigation_Title_TV"
+            android:text="@string/lesson22_on_activity_result_title" />
+        <View style="@style/One_Row_Strut"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/MMV"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/Lesson22_Text_TV"
+            style="@style/MW"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text="@string/hello_text" />
+        <LinearLayout
+            android:id="@+id/Lesson22_Layout1_LL"
+            style="@style/MWH"
+            android:layout_margin="20dp">
+
+            <Button
+                android:id="@+id/Lesson22_Color_BTN"
+                style="@style/MW"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="@string/color_text" />
+            <Button
+                android:id="@+id/Lesson22_Align_BTN"
+                style="@style/MW"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="@string/alignment_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

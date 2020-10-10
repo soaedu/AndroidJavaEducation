@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.sostrovsky.androidjavaedu.Lesson1_BasicViews"
+    style="@style/MMV">
+
+    <LinearLayout
+        style="@style/Navigation_LL">
+
+        <LinearLayout
+            android:id="@+id/Lesson2_ArrowBackWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="70dp">
+
+            <ImageView style="@style/Navigation_ArrowBack_IV" />
+
+        </LinearLayout>
+        <TextView
+            style="@style/Navigation_Title_TV"
+            android:text="@string/screen_orientation_title" />
+        <View style="@style/One_Row_Strut"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/MMV"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vertical_screen_text">
+        </TextView>
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Button1">
+            </Button>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Button2">
+            </Button>
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Button3">
+            </Button>
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Button4">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

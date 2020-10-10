@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV">
+
+    <LinearLayout
+        style="@style/Navigation_LL">
+
+        <LinearLayout
+            android:id="@+id/Lesson103_ArrowBackWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="70dp">
+
+            <ImageView style="@style/Navigation_ArrowBack_IV" />
+
+        </LinearLayout>
+        <TextView
+            style="@style/Navigation_Title_TV"
+            android:text="@string/lesson103_multiple_screen_title" />
+
+        <View style="@style/One_Row_Strut"/>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/MMH"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <fragment
+            android:id="@+id/Lesson103_Titles_Fr"
+            android:name="edu.sostrovsky.androidjavaedu.Lesson103_TitlesFragment"
+            style="@style/WM"
+            android:layout_weight="1" />
+        <FrameLayout
+            android:id="@+id/Lesson103_Container_FL"
+            style="@style/MM"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

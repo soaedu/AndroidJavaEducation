@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MWV"
+    android:background="@drawable/lesson46_rect">
+
+    <TextView
+        android:id="@+id/Lesson46_Text_TV"
+        style="@style/WW"
+        android:gravity="center_vertical"
+        android:minHeight="40dp"
+        android:textSize="20sp"
+        android:text="" />
+
+</LinearLayout>

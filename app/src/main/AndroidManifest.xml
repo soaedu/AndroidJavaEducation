@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sostrovsky.androidjavaedu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true">
+    </uses-feature>
+
+    <uses-permission android:name="com.example.os1.mycontentprovider.READ_DATABASE" />
+    <uses-permission android:name="com.example.os1.mycontentprovider.WRITE_DATABASE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCzIMXRqaPmkmo3g95YnaHg-6_K_eex2cE">
+        </meta-data>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version">
+        </meta-data>
+
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Main_Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson1_BasicViews"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson2_ScreenOrientation" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson3_Layouts" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson3_LinearLayout"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson3_TableLayout"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson3_RelativeLayout"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson3_AbsoluteLayout"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson4_LayoutProperties"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson4_LayoutWeight"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson4_LayoutGravity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson4_LayoutMargin"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson5_ViewById"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson6_OnClickButtons"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson7_ResValuesFolder"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson8_SimpleMenu"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson9_AdvancedMenu"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson10_ContextMenu"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson11_DynamicLayout"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson12_DynamicLayout2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson13_DynamicLayout3"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson14_SimpleCalculator"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson15_SimpleAnimation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson16_TwoActivities"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson16_SecondActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson17_ActivityStates"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson18_TwoActivityStates"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson18_SecondActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson19_IntentFilter"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson19_ShowTime"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+
+                <action android:name="com.example.os1.start_android_education.action.showtime" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson19_ShowDate"
+            android:label="Date basic"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+
+                <action android:name="com.example.os1.start_android_education.action.showdate" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson19_ShowDateExtended"
+            android:label="Date extended"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+
+                <action android:name="com.example.os1.start_android_education.action.showdate" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson19_ShowTimeOrDate"
+            android:label="Time/Date info"
+            android:screenOrientation="portrait" >
+
+            <intent-filter>
+
+                <action android:name="com.example.os1.start_android_education.action.showtime" />
+                <action android:name="com.example.os1.start_android_education.action.showdate" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson20_IntentExtras"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson20_ViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson21_SimpleActivityResult"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson21_NameActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson22_ActivityResult"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson22_ColorActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson22_AlignActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson23_SimpleIntents"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson24_SimpleBrowser"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson24_BrowserActivity"
+            android:label="MySimpleBrowser"
+            android:screenOrientation="portrait" >
+
+            <intent-filter tools:ignore="AppLinkUrlError">
+
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="http" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson25_SharedPreferences"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson26_SimpleSQLite"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson27_SQLiteQuery"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson28_SQLiteInnerJoin"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson29_SQLiteTransaction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson30_LayoutInflater"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson31_LayoutInflaterList"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson32_SimpleList"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson33_SimpleListChoice"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson34_SimpleListEvents"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson35_ExpandableList"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson36_ExpandableListEvents"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson37_SimpleAdapter"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson38_SimpleAdapterCustom1"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson39_SimpleAdapterCustom2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson40_SimpleAdapterData"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson41_SimpleCursorAdapter"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson42_SimpleCursorTreeAdapter"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson43_CustomAdapter"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson44_HeaderFooter"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson45_Spinner"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson46_GridView"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson47_TimePickerDialog"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson48_DatePickerDialog"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson49_AlertDialogSimple"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson50_AlertDialogPrepare"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson51_AlertDialogItems"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson52_AlertDialogItemsSingle"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson53_AlertDialogItemsMulti"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson54_AlertDialogCustom"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson55_AlertDialogOperations"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson56_ProgressDialog"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson57_Parcel"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson58_Parcelable"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson58_SecondActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson59_SaveInstanceState" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson60_PreferencesSimple"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson60_PreferencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson61_PreferencesSimple2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson61_PreferencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson62_PreferencesEnable"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson62_PreferencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson63_PreferencesCode"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson63_PreferencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson64_Files"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson65_Tab"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson66_TabIntent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson66_Activity1"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson66_Activity2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson67_TabContentFactory"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson68_XmlPullParser"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson69_Handler"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson70_HandlerSimpleMessage"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson71_HandlerAdvMessage"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson72_HandlerMessageManage"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson73_HandlerRunnable"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson74_RunnableUIThread"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson75_AsyncTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson76_AsyncTaskParams"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson77_AsyncTaskResult"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson78_AsyncTaskCancel"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson79_AsyncTaskStatus"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson80_AsyncTaskRotate"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson81_ServiceSimple"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name="edu.sostrovsky.androidjavaedu.Lesson81_MyService" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson82_ServiceStop"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name="edu.sostrovsky.androidjavaedu.Lesson82_MyService" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson83_ServiceKillClient"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson84_ServiceBackPendingIntent"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name="edu.sostrovsky.androidjavaedu.Lesson84_MyService" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson85_ServiceBackBroadcast"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name="edu.sostrovsky.androidjavaedu.Lesson85_MyService" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson86_ServiceBindClient"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name="edu.sostrovsky.androidjavaedu.Lesson86_MyService">
+
+            <intent-filter>
+
+                <action android:name="com.example.os1.start_android_education.Lesson86_MyService"/>
+            </intent-filter>
+
+        </service>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson87_ServiceBindingLocal"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name="edu.sostrovsky.androidjavaedu.Lesson87_MyService" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson88_ServiceNotification"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name="edu.sostrovsky.androidjavaedu.Lesson88_MyService"
+            android:process=":myservice"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson89_ContentProviderClient" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson90_Touch"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson91_MultiTouch"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson92_FragmentLifecycle"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson93_FragmentDynamic"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson94_FragmentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson95_ActionBarItems"
+            android:theme="@style/ActionBarTheme"
+            android:logo="@android:drawable/ic_menu_view"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson96_ActionBarNavigation"
+            android:theme="@style/ActionBatThemeLight"
+            android:uiOptions="splitActionBarWhenNarrow"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson97_ListFragment"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson98_DialogFragment"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson99_PreferenceFragment" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson100_DynamicActionBar"
+            android:theme="@style/ActionBarTheme"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson101_ActionMode"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson102_SupportLibrary"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson103_MultipleScreen"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson103_DetailsActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson104_Activity_A"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson104_Activity_B"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson104_Activity_C"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+
+            <intent-filter>
+
+                <action android:name="mngtasks1_activity_c" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson104_Activity_D"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+        <receiver
+            android:name="edu.sostrovsky.androidjavaedu.Lesson105_SimpleWidget"
+            android:icon="@android:drawable/star_big_on"
+            android:label="@string/lesson105_widget_name">
+
+            <intent-filter>
+
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_metadata_lesson105">
+            </meta-data>
+        </receiver>
+        <receiver
+            android:name="edu.sostrovsky.androidjavaedu.Lesson106_SimpleWidget"
+            android:icon="@android:drawable/star_big_on"
+            android:label="@string/lesson106_widget_name">
+
+            <intent-filter>
+
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_metadata_lesson106">
+            </meta-data>
+        </receiver>
+        <activity android:name="edu.sostrovsky.androidjavaedu.Lesson106_WidgetConfig">
+
+            <intent-filter>
+
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson107_PendingIntent"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable" />
+        <receiver
+            android:name="edu.sostrovsky.androidjavaedu.Lesson107_Receiver" />
+        <receiver
+            android:name="edu.sostrovsky.androidjavaedu.Lesson108_MyWidget">
+
+            <intent-filter>
+
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_metadata_lesson108">
+            </meta-data>
+
+        </receiver>
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson108_WidgetConfig">
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+
+        </activity>
+        <service
+            android:name="edu.sostrovsky.androidjavaedu.Lesson109_MyService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <receiver
+            android:name="edu.sostrovsky.androidjavaedu.Lesson109_MyWidgetProvider">
+
+            <intent-filter>
+
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_metadata_lesson109" />
+
+        </receiver>
+
+        <activity
+            android:name="edu.sostrovsky.androidjavaedu.Lesson125_GoogleMaps"
+            tools:ignore="Instantiatable" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_fragmn1_item"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/lesson100_item31_text"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

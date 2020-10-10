@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM">
+
+    <CheckBoxPreference
+        android:key="@string/checkbox_text"
+        android:summary="@string/lesson61_checkbox_description_text"
+        android:title="@string/checkbox_text" />
+    <ListPreference
+        android:entries="@array/pref_entries"
+        android:entryValues="@array/pref_entry_values"
+        android:key="@string/list_text"
+        android:summary="@string/lesson61_list_description_text"
+        android:title="@string/list_text" />
+    <PreferenceScreen
+        android:key="@string/screen_text"
+        android:summary="@string/lesson61_screen_description_text"
+        android:title="@string/screen_text">
+
+        <PreferenceCategory
+            android:key="@string/category1_text"
+            android:summary="@string/lesson61_category1_description_text"
+            android:title="@string/category1_text">
+
+            <CheckBoxPreference
+                android:key="@string/checkbox1_text"
+                android:summary="@string/lesson61_checkbox1_description_text"
+                android:title="@string/checkbox1_text" />
+            <CheckBoxPreference
+                android:key="@string/checkbox2_text"
+                android:summary="@string/lesson61_checkbox2_description_text"
+                android:title="@string/checkbox2_text" />
+            <CheckBoxPreference
+                android:key="@string/checkbox3_text"
+                android:summary="@string/lesson61_checkbox3_description_text"
+                android:title="@string/checkbox3_text" />
+
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="@string/category2_text"
+            android:summary="@string/lesson61_category2_description_text"
+            android:title="@string/category2_text">
+
+            <CheckBoxPreference
+                android:key="@string/checkbox4_text"
+                android:summary="@string/lesson61_checkbox4_description_text"
+                android:title="@string/checkbox4_text" />
+            <CheckBoxPreference
+                android:key="@string/checkbox5_text"
+                android:summary="@string/lesson61_checkbox5_description_text"
+                android:title="@string/checkbox5_text" />
+
+        </PreferenceCategory>
+
+    </PreferenceScreen>
+
+</PreferenceScreen>

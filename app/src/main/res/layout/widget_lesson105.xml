@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/Lesson105_TV"
+        style="@style/MM"
+        android:background="#6600ff00"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="@string/lesson105_widget_text"/>
+
+</RelativeLayout>

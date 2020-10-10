@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android2:id="@+id/item1"
+        app:showAsAction="always"
+        android2:title="@string/item1_text" />
+    <item
+        android2:id="@+id/item2"
+        android2:icon="@android:drawable/ic_menu_call"
+        app:showAsAction="ifRoom"
+        android2:title="@string/item2_text" />
+    <item
+        android2:id="@+id/item3"
+        android2:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="ifRoom|withText"
+        android2:title="@string/item3_text" />
+    <item
+        android2:id="@+id/item4"
+        android2:icon="@android:drawable/ic_menu_view"
+        app:showAsAction="never"
+        android2:title="@string/item4_text" />
+
+</menu>

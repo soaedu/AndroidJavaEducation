@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Lesson30_TV"
+    style="@style/MM"
+    android:text="@string/lesson30_text_view_text" />

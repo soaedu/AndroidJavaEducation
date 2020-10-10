@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/lesson99_category1_text">
+
+        <CheckBoxPreference
+            android:key="Preferences_Fragment_Chb2"
+            android:summary="@string/lesson99_checkbox2_summary_text"
+            android:title="@string/lesson99_checkbox2_text" />
+        <EditTextPreference
+            android:key="Preferences_Fragment_Et2"
+            android:summary="@string/lesson99_edittext2_summary_text"
+            android:title="@string/lesson99_edittext2_text" />
+        <ListPreference
+            android:entries="@array/pref_entries"
+            android:entryValues="@array/pref_entry_values"
+            android:key="Preferences_Fragment_List2"
+            android:summary="@string/lesson99_list2_summary_text"
+            android:title="@string/lesson99_list2_text" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/lesson99_category2_text">
+
+        <PreferenceScreen
+            android:fragment="edu.sostrovsky.androidjavaedu.Lesson99_Fragment1"
+            android:summary="@string/lesson99_screen1_summary_text"
+            android:title="@string/lesson99_screen1_text" />
+        <PreferenceScreen
+            android:summary="@string/lesson99_screen2_summary_text"
+            android:title="@string/lesson99_screen2_text">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.developer.android.com" />
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

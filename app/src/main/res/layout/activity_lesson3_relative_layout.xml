@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.sostrovsky.androidjavaedu.Lesson3_LinearLayout"
+    style="@style/MMV">
+
+    <LinearLayout style="@style/Navigation_LL">
+
+        <LinearLayout
+            android:id="@+id/Lesson3_RelativeLayout_ArrowBackWrapLL"
+            style="@style/Image_Wrap"
+            android:layout_width="70dp">
+
+            <ImageView style="@style/Navigation_ArrowBack_IV" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/Lesson3_RelativeLayoutTitle_TV"
+            style="@style/Navigation_Title_TV" />
+        <View style="@style/One_Row_Strut"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        style="@style/MM"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/Lesson3_RelativeLayout_Label_TV"
+            style="@style/MW"
+            android:text="Type here:">
+        </TextView>
+        <EditText
+            android:id="@+id/Lesson3_RelativeLayout_Entry_ET"
+            style="@style/MW"
+            android:layout_below="@+id/Lesson3_RelativeLayout_Label_TV"
+            android:background="@android:drawable/editbox_background">
+        </EditText>
+        <Button
+            android:id="@+id/Lesson3_RelativeLayout_OK_BTN"
+            style="@style/WW"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Lesson3_RelativeLayout_Entry_ET"
+            android:layout_marginLeft="10dip"
+            android:text="OK">
+        </Button>
+        <Button
+            style="@style/WW"
+            android:layout_alignTop="@+id/Lesson3_RelativeLayout_OK_BTN"
+            android:layout_toLeftOf="@+id/Lesson3_RelativeLayout_OK_BTN"
+            android:text="Cancel">
+
+        </Button>
+
+    </RelativeLayout>
+
+</LinearLayout>

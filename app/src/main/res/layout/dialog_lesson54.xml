@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV">
+
+    <TextView
+        android:id="@+id/Lesson54_Time_TV"
+        style="@style/WW"
+        android:text="" />
+    <TextView
+        android:id="@+id/Lesson54_Count_TV"
+        style="@style/WW"
+        android:text="" />
+
+</LinearLayout>

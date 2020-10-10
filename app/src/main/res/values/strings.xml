@@ -1,0 +1,642 @@
+<resources>
+
+    <string name="app_name">AndroidJavaEdu</string>
+
+    <string name="title_text">Примеры:</string>
+
+    <string-array name="examples">
+        <item>Пример 1. Basic Views.</item>
+        <item>Пример 2. Смена ориентации экрана.</item>
+        <item>Пример 3. Виды Layouts.</item>
+        <item>Пример 4. Layout properties.</item>
+        <item>Пример 5. ViewById.</item>
+        <item>Пример 6. OnClick.</item>
+        <item>Пример 7. Папка res/values.</item>
+        <item>Пример 8. Создание простого меню.</item>
+        <item>Пример 9. Меню, группы, порядок. MenuInflater и xml-меню.</item>
+        <item>Пример 10. Контекстное меню.</item>
+        <item>Пример 11. Программное создание экрана. LayoutParams.</item>
+        <item>Пример 12. Создание View-компонент в рабочем приложении.</item>
+        <item>Пример 13. Меняем layoutParams в рабочем приложении.</item>
+        <item>Пример 14. Пишем простой калькулятор.</item>
+        <item>Пример 15. Анимация.</item>
+        <item>Пример 16. Создание и вызов Activity.</item>
+        <item>Пример 17. Activity Lifecycle. В каких состояниях может быть Activity.</item>
+        <item>Пример 18. Activity Lifecycle, пример смены состояний с двумя Activity.</item>
+        <item>Пример 19. Intent Filter - практика.</item>
+        <item>Пример 20. Extras - передаем данные с помощью Intent.</item>
+        <item>Пример 21. Вызываем Activity и получаем результат. Метод startActivityForResult.</item>
+        <item>Пример 22. Подробнее про onActivityResult. Зачем нужны requestCode и resultCode.</item>
+        <item>Пример 23. Зачем у Intent есть атрибут data. Что такое Uri. Вызываем системные приложения.</item>
+        <item>Пример 24. Пишем простой браузер.</item>
+        <item>Пример 25. Хранение данных. Preferences.</item>
+        <item>Пример 26. Хранение данных. SQLite.</item>
+        <item>Пример 27. SQLite. Подробнее про метод query. Условие, сортировка, группировка.</item>
+        <item>Пример 28. Запросы из связанных таблиц. INNER JOIN в SQLite. Метод rawQuery.</item>
+        <item>Пример 29. Транзакции в SQLite. Небольшой FAQ по SQLite.</item>
+        <item>Пример 30. LayoutInflater. Учимся использовать.</item>
+        <item>Пример 31. Используем LayoutInflater для создания списка.</item>
+        <item>Пример 32. Список - ListView.</item>
+        <item>Пример 33. Одиночный и множественный выбор в ListView.</item>
+        <item>Пример 34. События в ListView.</item>
+        <item>Пример 35. Список-дерево ExpandableListView.</item>
+        <item>Пример 36. События ExpandableListView.</item>
+        <item>Пример 37. Используем SimpleAdapter.</item>
+        <item>Пример 38. SimpleAdapter. Методы SetViewText и SetViewImage.</item>
+        <item>Пример 39. SimpleAdapter. Используем ViewBinder.</item>
+        <item>Пример 40. SimpleAdapter, добавление и удаление записей.</item>
+        <item>Пример 41. SimpleCursorAdapter, пример использования.</item>
+        <item>Пример 42. SimpleCursorTreeAdapter, пример использования.</item>
+        <item>Пример 43. Кастомизация списка. Создаем свой адаптер.</item>
+        <item>Пример 44. Header и Footer в списках. HeaderViewListAdapter.</item>
+        <item>Пример 45. Spinner – выпадающий список.</item>
+        <item>Пример 46. GridView и его атрибуты.</item>
+        <item>Пример 47. Диалоги. TimePickerDialog.</item>
+        <item>Пример 48. Диалоги. DatePickerDialog.</item>
+        <item>Пример 49. Диалоги. AlertDialog: Title, Message, Icon, Buttons.</item>
+        <item>Пример 50. Диалоги. AlertDialog.Метод onPrepareDialog.</item>
+        <item>Пример 51. Диалоги. AlertDialog. Список.</item>
+        <item>Пример 52. Диалоги. AlertDialog. Список с одиночным выбором.</item>
+        <item>Пример 53. Диалоги. AlertDialog. Список с множественным выбором.</item>
+        <item>Пример 54. Диалоги. AlertDialog. Кастомизация.</item>
+        <item>Пример 55. Диалоги. Обработчики и операции.</item>
+        <item>Пример 56. Диалоги. ProgressDialog.</item>
+        <item>Пример 57. Немного о Parcel.</item>
+        <item>Пример 58. Передаем Parcelable объекты с помощью Intent.</item>
+        <item>Пример 59. onSaveInstanceState. Сохранение данных Activity при повороте экрана.</item>
+        <item>Пример 60. Preferences как настройки приложения. PreferenceActivity.</item>
+        <item>Пример 61. Preferences. Список, экраны и категории.</item>
+        <item>Пример 62. Preferences. Управляем активностью настроек (setEnabled).</item>
+        <item>Пример 63. Preferences. Программное создание экрана настроек.</item>
+        <item>Пример 64. Хранение данных. Работа с файлами.</item>
+        <item>Пример 65. Tab - вкладки. Общий обзор.</item>
+        <item>Пример 66. Tab - вкладки. TabActivity. Activity, как содержимое вкладки.</item>
+        <item>Пример 67. Tab - вкладки. TabContentFactory, ручное создание содержимого вкладки.</item>
+        <item>Пример 68. XmlPullParser. Парсим XML.</item>
+        <item>Пример 69. Handler. Немного теории. Наглядный пример использования.</item>
+        <item>Пример 70. Handler. Посылаем простое сообщение.</item>
+        <item>Пример 71. Handler. Пример с более содержательными сообщениями.</item>
+        <item>Пример 72. Handler. Отложенные сообщения, удаление из очереди, Handler.Callback.</item>
+        <item>Пример 73. Handler. Обработка Runnable.</item>
+        <item>Пример 74. Еще несколько способов выполнения кода в UI-потоке.</item>
+        <item>Пример 75. AsyncTask. Знакомство, несложный пример.</item>
+        <item>Пример 76. AsyncTask. Параметры. Промежуточные результаты.</item>
+        <item>Пример 77. AsyncTask. Итоговый результат. Метод get.</item>
+        <item>Пример 78. AsyncTask. Cancel – отменяем задачу в процессе выполнения.</item>
+        <item>Пример 79. AsyncTask. Status – статусы задачи.</item>
+        <item>Пример 80. AsyncTask. Поворот экрана.</item>
+        <item>Пример 81. Service. Простой пример.</item>
+        <item>Пример 82. Service. Передача данных в сервис. Методы остановки сервиса.</item>
+        <item>Пример 83. Service. Подробно про onStartCommand.</item>
+        <item>Пример 84. Service. Обратная связь с помощью PendingIntent.</item>
+        <item>Пример 85. Service. Обратная связь с помощью BroadcastReceiver.</item>
+        <item>Пример 86. Service. Биндинг. ServiceConnection.</item>
+        <item>Пример 87. Service. Локальный биндинг.</item>
+        <item>Пример 88. Service. Уведомления - notifications.</item>
+        <item>Пример 89. Создаем свой ContentProvider.</item>
+        <item>Пример 90. Touch – обработка касания.</item>
+        <item>Пример 91. MultiTouch – обработка множественных касаний.</item>
+        <item>Пример 92. Android 3. Fragments. Lifecycle.</item>
+        <item>Пример 93. Android 3. Fragments. Динамическая работа.</item>
+        <item>Пример 94. Android 3. Fragments. Взаимодействие с Activity.</item>
+        <item>Пример 95. Android 3. ActionBar. Размещение элементов.</item>
+        <item>Пример 96. Android 3. ActionBar. Навигация - табы и выпадающий список.</item>
+        <item>Пример 97. Android 3. Fragments. ListFragment - список.</item>
+        <item>Пример 98. Android 3. Fragments. DialogFragment - диалог.</item>
+        <item>Пример 99. Android 3. Fragments. PreferenceFragment - настройки. Headers.</item>
+        <item>Пример 100. Android 3. ActionBar. Динамическое размещение элементов.</item>
+        <item>Пример 101. Android 3. ActionMode, как альтернатива контекстному меню.</item>
+        <item>Пример 102. Android 3. Библиотека Support Library. Зачем нужна и как ее использовать на примере фрагментов.</item>
+        <item>Пример 103. Одно приложение на разных экранах.</item>
+        <item>Пример 104. Поведение Activity в Task. Intent-флаги, launchMode, affinity.</item>
+        <item>Пример 105. Виджеты. Создание. Lifecycle.</item>
+        <item>Пример 106. Виджеты. Конфигурационный экран. Обновление.</item>
+        <item>Пример 107. PendingIntent – флаги, requestCode. AlarmManager.</item>
+        <item>Пример 108. Виджеты. Обработка нажатий.</item>
+        <item>Пример 109. Виджеты. Список.</item>
+        <item>Пример 110. Виджеты. Превью, изменение размера, экран блокировки, ручное обновление.</item>
+        <item>Пример 125. Google maps. Создание и настройка проекта. Карта, камера, события.</item>
+    </string-array>
+
+    <string-array name="names">
+        <item>Иван</item>
+        <item>Марья</item>
+        <item>Петр</item>
+        <item>Ольга</item>
+        <item>Антон</item>
+        <item>Даша</item>
+        <item>Борис</item>
+        <item>Костя</item>
+        <item>Игорь</item>
+        <item>Анна</item>
+        <item>Денис</item>
+        <item>Вадим</item>
+        <item>Сергей</item>
+    </string-array>
+
+    <string-array name="pref_entries">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+    <string-array name="pref_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="headers">
+        <item>Header 1</item>
+        <item>Header 2</item>
+        <item>Header 3</item>
+        <item>Header 4</item>
+    </string-array>
+
+    <string-array name="content">
+        <item>Content 1</item>
+        <item>Content 2</item>
+        <item>Content 3</item>
+        <item>Content 4</item>
+    </string-array>
+
+    <string name="main_activity_text">MainActivity</string>
+    <string name="second_activity_text">Second Activity</string>
+
+    <string name="hello_text">Hello World!</string>
+
+    <string name="box_text">Корзина</string>
+
+    <string name="left_text">Left</string>
+    <string name="center_text">Center</string>
+    <string name="right_text">Right</string>
+
+    <string name="ok_text">Ok</string>
+
+    <string name="color_text">Color</string>
+    <string name="alignment_text">Alignment</string>
+
+    <string name="red_text">Red</string>
+    <string name="green_text">Green</string>
+    <string name="blue_text">Blue</string>
+
+    <string name="web_text">Web</string>
+    <string name="map_text">Map</string>
+    <string name="call_text">Call</string>
+
+    <string name="id_text">ID</string>
+    <string name="first_name_text">First Name</string>
+    <string name="last_name_text">Last Name</string>
+    <string name="name_text">Name</string>
+    <string name="email_text">Email</string>
+
+    <string name="yes_text">Да</string>
+    <string name="no_text">Нет</string>
+
+    <string name="exit_text">Выход</string>
+    <string name="cancel_text_ru">Отмена</string>
+    <string name="submit_text">Submit</string>
+
+    <string name="text_view_text">TextView</string>
+    <string name="checkbox_text">CheckBox</string>
+    <string name="list_text">List</string>
+
+    <string name="items_text">Items</string>
+    <string name="adapter_text">Adapter</string>
+    <string name="cursor_text">Cursor</string>
+
+    <string name="add_text">Add</string>
+    <string name="read_text">Read</string>
+
+    <string name="remove_text">Remove</string>
+    <string name="replace_text">Replace</string>
+
+    <string name="add_to_back_stack_text">add to Back Stack</string>
+
+    <string name="log_text">Log</string>
+    <string name="find_text">Find</string>
+
+    <string name="up_text">Up</string>
+    <string name="down_text">Down</string>
+
+    <string name="save_text">Save</string>
+    <string name="update_text">Update</string>
+    <string name="delete_text">Delete</string>
+    <string name="load_text">Load</string>
+    <string name="insert_text">Insert</string>
+
+    <string name="send_text">Send</string>
+
+    <string name="add_text_ru">Добавить</string>
+    <string name="delete_text_ru">Удалить</string>
+
+    <string name="add_delete_ru_text">Добавить/удалить</string>
+    <string name="show_hide_ru_text">Показать/скрыть</string>
+    <string name="fragment_ru_text">Фрагмент</string>
+
+    <string name="create_text">Create</string>
+    <string name="clear_text">Clear</string>
+
+    <string name="connect_text">Connect</string>
+
+    <string name="start_text">Start</string>
+    <string name="stop_text">Stop</string>
+
+    <string name="bind_text">Bind</string>
+    <string name="unbind_text">Unbind</string>
+
+    <string name="error_text">Error</string>
+
+    <string name="start_service_text">Start service</string>
+    <string name="stop_service_text">Stop service</string>
+
+    <string name="current_time_text">Текущее время</string>
+
+    <string name="dialog_text">Диалог</string>
+
+    <string name="end_text">End</string>
+
+    <string name="result_text">Result</string>
+
+    <string name="notifications_text">Notifications</string>
+
+    <string name="address_text">Address</string>
+
+    <string name="screen_text">Screen</string>
+
+    <string name="category1_text">Category 1</string>
+    <string name="category2_text">Category 2</string>
+
+    <string name="checkbox1_text">CheckBox 1</string>
+    <string name="checkbox2_text">CheckBox 2</string>
+    <string name="checkbox3_text">CheckBox 3</string>
+    <string name="checkbox4_text">CheckBox 4</string>
+    <string name="checkbox5_text">CheckBox 5</string>
+    <string name="checkbox6_text">CheckBox 6</string>
+
+    <string name="item1_text">Item1</string>
+    <string name="item2_text">Item2</string>
+    <string name="item3_text">Item3</string>
+    <string name="item4_text">Item4</string>
+
+    <string name="button1_text">Button1</string>
+    <string name="button2_text">Button2</string>
+
+    <string name="write_file_text">Записать файл</string>
+    <string name="read_file_text">Прочесть файл</string>
+    <string name="write_file_sd_text">Записать файл на SD</string>
+    <string name="read_file_sd_text">Прочесть файл с SD</string>
+
+    <string name="tab1_text">Вкладка 1</string>
+    <string name="tab2_text">Вкладка 2</string>
+    <string name="tab3_text">Вкладка 3</string>
+    <string name="tab_header_text">Свой заголовок</string>
+
+    <string name="activity1_text">Activity 1</string>
+    <string name="activity2_text">Activity 2</string>
+
+    <string name="fragment1_text">Fragment 1</string>
+    <string name="fragment2_text">Fragment 2</string>
+
+    <string name="test_text">Test</string>
+    <string name="cancel_text">Cancel</string>
+
+    <string name="list_of_numbers_text">Список чисел</string>
+    <string name="no_data_text">Нет данных</string>
+
+    <string name="dialog1_text">Dialog 1</string>
+    <string name="dialog2_text">Dialog 2</string>
+    <string name="message_text">Text of your message</string>
+    <string name="maybe_text">Maybe</string>
+
+    <string name="status_text">Status</string>
+
+    <string name="not_connected_text">Not connected</string>
+    <string name="connecting_text">Connecting</string>
+    <string name="connected_text">Connected</string>
+
+    <string name="info_text">Info</string>
+    <string name="config_text">Config</string>
+
+    <string name="screen_orientation_title">Смена ориентации экрана</string>
+    <string name="horizontal_screen_text">Горизонтальная ориентация экрана</string>
+    <string name="vertical_screen_text">Вертикальная ориентации экрана</string>
+    <string name="lesson4_layout_properties_text">Layout properties</string>
+
+    <string name="layout_types_title">Виды Layouts</string>
+    <string name="linear_layout_text">Linear Layout</string>
+    <string name="table_layout_text">Table Layout</string>
+    <string name="relative_layout_text">Relative Layout</string>
+    <string name="absolute_layout_text">Absolute Layout</string>
+
+    <string name="view_by_id_title">Работаем с элементами экрана из кода</string>
+    <string name="on_click_title">Обработчики событий на примере Button</string>
+
+    <string name="lesson6_btn_ok_clicked_text">Нажата кнопка ОК</string>
+    <string name="lesson6_btn_cancel_clicked_text">Нажата кнопка Cancel</string>
+
+    <string name="folder_res_values_title">Папка res/values</string>
+    <string name="lesson7_top_text_view_text">Верхний текст</string>
+    <string name="lesson7_top_btn_text">Верхняя кнопка</string>
+    <string name="lesson7_bottom_text_view_text">Нижний текст</string>
+    <string name="lesson7_bottom_btn_text">Нижняя кнопка</string>
+
+    <string name="lesson8_simple_menu_title">Создание простого меню</string>
+    <string name="lesson8_click_on_menu_text">Нажмите на устройстве кнопку меню.</string>
+
+    <string name="lesson9_advanced_menu_title">Меню, группы, порядок. MenuInflater и xml-меню</string>
+    <string name="lesson9_advanced_menu_text">Расширенное меню</string>
+
+    <string name="lesson10_context_menu_title">Контекстное меню</string>
+    <string name="lesson10_text_color_text">Text color</string>
+    <string name="lesson10_text_size_text">Text size</string>
+
+    <string name="lesson11_dynamic_layout_title">Программное создание экрана. LayoutParams</string>
+
+    <string name="lesson12_dynamic_layout2_title">Создание View-компонент в рабочем приложении</string>
+
+    <string name="lesson13_dynamic_layout3_title">Меняем layoutParams в рабочем приложении</string>
+
+    <string name="lesson14_simple_calculator_title">Пишем простой калькулятор</string>
+
+    <string name="lesson15_animation_title">Анимация</string>
+
+    <string name="lesson16_two_activities_title">Создание и вызов Activity</string>
+    <string name="lesson16_open_second_activity_text">Go to Activity Two</string>
+
+    <string name="lesson17_activity_lifecycle_title">Activity Lifecycle. В каких состояниях может быть Activity</string>
+
+    <string name="lesson18_two_activities_lifecycle_title">Activity Lifecycle, пример смены состояний с двумя Activity</string>
+
+    <string name="lesson19_intent_filter_title">Intent Filter - практика</string>
+    <string name="lesson19_show_time_text">Show time</string>
+    <string name="lesson19_show_date_text">Show date</string>
+    <string name="lesson19_show_time_or_date_text">Show time/date</string>
+
+    <string name="lesson20_extras_title">Extras - передаем данные с помощью Intent</string>
+    <string name="lesson20_input_your_name_text">Input your Name</string>
+
+    <string name="lesson21_start_activity_for_result_title">Метод startActivityForResult</string>
+    <string name="lesson21_input_name_text">Input name</string>
+    <string name="lesson21_your_name_is_text">Your name is:</string>
+
+    <string name="lesson22_on_activity_result_title">Подробнее про onActivityResult</string>
+
+    <string name="lesson23_uri_title">URI</string>
+
+    <string name="lesson24_simple_browser_title">Пишем простой браузер</string>
+
+    <string name="lesson25_preferences_title">Preferences</string>
+
+    <string name="lesson26_sqlite_title">SQLite</string>
+
+    <string name="all_data_in_logs_text">Все данные выводятся в лог</string>
+
+    <string name="count_text">Count</string>
+    <string name="show_web_text">Show Web</string>
+
+    <string name="action_mode_text">Action Mode</string>
+
+    <string name="lesson27_sqlite_query_title">SQLite. Подробнее про метод query...</string>
+    <string name="lesson27_countries_catalog_text">Справочник стран</string>
+    <string name="lesson27_all_records_text">Все записи</string>
+    <string name="lesson27_function_text">Функция</string>
+    <string name="lesson27_population_text">Население</string>
+    <string name="lesson27_population_greater_then_text">Население ></string>
+    <string name="lesson27_population_by_region_text">Население по региону</string>
+    <string name="lesson27_population_by_region_greater_then_text">Население по региону ></string>
+    <string name="lesson27_sorting_text">Сортировка</string>
+    <string name="lesson27_country_name_text">Наименование</string>
+    <string name="lesson27_region_text">Регион</string>
+
+    <string name="lesson28_raw_query_title">Запросы из связанных таблиц...</string>
+
+    <string name="lesson29_transaction_title">Транзакции в SQLite</string>
+
+    <string name="lesson30_layout_inflater_title">LayoutInflater</string>
+    <string name="lesson30_linear_layout_text">Linear Layout: </string>
+    <string name="lesson30_relative_layout_text">Relative Layout: </string>
+    <string name="lesson30_text_view_text">Layout with TextView</string>
+
+    <string name="lesson31_layout_inflater_list_title">Используем LayoutInflater для создания списка</string>
+    <string name="lesson31_staff_list_text">Staff list</string>
+
+    <string name="lesson32_list_view_title">Список - ListView</string>
+
+    <string name="lesson33_list_view_choice_type_title">Одиночный и множественный выбор в ListView</string>
+    <string name="lesson33_get_checked_items_text">Get checked items</string>
+
+    <string name="lesson34_list_view_events_title">События в ListView</string>
+
+    <string name="lesson35_expandable_list_view_title">Список-дерево ExpandableListView</string>
+
+    <string name="lesson36_expandable_list_view_events_title">События ExpandableListView</string>
+
+    <string name="lesson37_simple_adapter_title">Используем SimpleAdapter</string>
+
+    <string name="lesson38_simple_adapter_methods_title">SimpleAdapter. Методы SetViewText и SetViewImage</string>
+
+    <string name="lesson39_view_binder_title">SimpleAdapter. Используем ViewBinder</string>
+
+    <string name="lesson40_simple_adapter_data_title">SimpleAdapter, добавление и удаление записей</string>
+    <string name="lesson40_add_row_text">Добавить запись</string>
+    <string name="lesson40_delete_row_text">Удалить запись</string>
+
+    <string name="lesson41_simple_cursor_adapter_title">SimpleCursorAdapter, пример использования</string>
+
+    <string name="lesson42_simple_cursor_tree_adapter_title">SimpleCursorTreeAdapter, пример использования</string>
+
+    <string name="lesson43_custom_adapter_title">Кастомизация списка. Создаем свой адаптер</string>
+    <string name="lesson43_products_in_box_text">Товары в корзине:</string>
+
+    <string name="lesson44_header_view_list_adapter_title">Header и Footer в списках. HeaderViewListAdapter</string>
+    <string name="lesson44_header_text">Header</string>
+    <string name="lesson44_footer_text">Footer</string>
+    <string name="lesson44_test_text">Test</string>
+
+    <string name="lesson45_spinner_title">Spinner – выпадающий список</string>
+
+    <string name="lesson46_grid_view_title">GridView и его атрибуты</string>
+
+    <string name="lesson47_time_picker_dialog_title">Диалоги. TimePickerDialog</string>
+
+    <string name="lesson48_date_picker_dialog_title">Диалоги. DatePickerDialog</string>
+
+    <string name="lesson49_alert_dialog_title">Диалоги. AlertDialog: Title, Message, Icon, Buttons</string>
+    <string name="lesson49_save_data_text">Сохранить данные?</string>
+    <string name="lesson49_saved_text">Сохранено</string>
+
+    <string name="lesson50_on_prepare_dialog_title">Диалоги. AlertDialog.Метод onPrepareDialog</string>
+
+    <string name="lesson51_list_in_dialog_title">Диалоги. AlertDialog. Список</string>
+
+    <string name="lesson52_list_in_dialog_with_single_choice_title">Диалоги. AlertDialog. Список с одиночным выбором</string>
+
+    <string name="lesson53_list_in_dialog_with_multiple_choice_title">Диалоги. AlertDialog. Список с множественным выбором</string>
+
+    <string name="lesson54_alert_dialog_custom_title">Диалоги. AlertDialog. Кастомизация</string>
+
+    <string name="lesson55_alert_dialog_operations_title">Диалоги. Обработчики и операции</string>
+
+    <string name="lesson56_progress_dialog_title">Диалоги. ProgressDialog</string>
+    <string name="lesson56_progress_dialog_default_text">Обычный</string>
+    <string name="lesson56_progress_dialog_horizontal_text">Горизонтальный</string>
+
+    <string name="lesson57_parcel_title">Немного о Parcel</string>
+
+    <string name="lesson58_parcel_object_send_title">Передаем Parcelable объекты с помощью Intent</string>
+
+    <string name="lesson59_on_save_instance_state_title">onSaveInstanceState. Сохранение данных Activity при повороте экрана</string>
+
+    <string name="lesson60_preference_activity_title">Preferences как настройки приложения. PreferenceActivity</string>
+    <string name="lesson60_enable_notifications_text">Enable notifications</string>
+    <string name="lesson60_address_for_notifications_text">Address for notifications</string>
+
+    <string name="lesson61_preferences_title">Preferences. Список, экраны и категории</string>
+    <string name="lesson61_checkbox_description_text">Description of checkbox</string>
+    <string name="lesson61_list_description_text">Description of list</string>
+    <string name="lesson61_screen_description_text">Description of screen</string>
+    <string name="lesson61_category1_description_text">Description of category 1</string>
+    <string name="lesson61_category2_description_text">Description of category 2</string>
+    <string name="lesson61_checkbox1_description_text">Description of checkbox 1</string>
+    <string name="lesson61_checkbox2_description_text">Description of checkbox 2</string>
+    <string name="lesson61_checkbox3_description_text">Description of checkbox 3</string>
+    <string name="lesson61_checkbox4_description_text">Description of checkbox 4</string>
+    <string name="lesson61_checkbox5_description_text">Description of checkbox 5</string>
+
+    <string name="lesson62_preferences_title">Preferences. Управляем активностью настроек (setEnabled)</string>
+    <string name="lesson62_checkbox1_off_description_text">Description of checkbox 1 off</string>
+    <string name="lesson62_checkbox1_on_description_text">Description of checkbox 1 on</string>
+    <string name="lesson62_checkbox6_description_text">Description of checkbox 6</string>
+
+    <string name="lesson63_preferences_title">Preferences. Программное создание экрана настроек</string>
+
+    <string name="lesson64_files_title">Хранение данных. Работа с файлами</string>
+
+    <string name="lesson65_tabs_title">Tab - вкладки. Общий обзор</string>
+
+    <string name="lesson66_tab_activity_title">Tab - вкладки. TabActivity. Activity, как содержимое вкладки</string>
+
+    <string name="lesson67_tab_content_factory_title">Tab - вкладки. TabContentFactory, ручное создание содержимого вкладки</string>
+    <string name="lesson67_made_programmatically_text">Это создано вручную</string>
+    <string name="lesson67_made_by_layout_inflater_text">Это создано с помощью LayoutInflater</string>
+
+    <string name="lesson68_xml_pull_parser_title">XmlPullParser. Парсим XML</string>
+
+    <string name="lesson69_handler_title">Handler. Немного теории. Наглядный пример использования</string>
+
+    <string name="lesson70_handler_title">Handler. Посылаем простое сообщение</string>
+
+    <string name="lesson71_handler_title">Handler. Пример с более содержательными сообщениями</string>
+
+    <string name="lesson72_handler_title">Handler. Отложенные сообщения, удаление из очереди, Handler.Callback</string>
+
+    <string name="lesson73_handler_title">Handler. Обработка Runnable</string>
+    <string name="lesson73_info_text">Подробно</string>
+
+    <string name="lesson74_ui_thread_title">Еще несколько способов выполнения кода в UI-потоке</string>
+
+    <string name="lesson75_async_task_title">AsyncTask. Знакомство, несложный пример</string>
+
+    <string name="lesson76_async_task_title">AsyncTask. Параметры. Промежуточные результаты</string>
+
+    <string name="lesson77_async_task_title">AsyncTask. Итоговый результат. Метод get</string>
+
+    <string name="lesson78_async_task_title">AsyncTask. Cancel – отменяем задачу в процессе выполнения</string>
+
+    <string name="lesson79_async_task_title">AsyncTask. Status – статусы задачи</string>
+
+    <string name="lesson80_async_task_title">AsyncTask. Поворот экрана</string>
+
+    <string name="lesson81_service_title">Service. Простой пример</string>
+
+    <string name="lesson82_service_title">Service. Передача данных в сервис. Методы остановки сервиса</string>
+
+    <string name="lesson83_service_title">Service. Подробно про onStartCommand</string>
+
+    <string name="lesson84_service_title">Service. Обратная связь с помощью PendingIntent</string>
+
+    <string name="lesson85_service_title">Service. Обратная связь с помощью BroadcastReceiver</string>
+
+    <string name="lesson86_service_title">Service. Биндинг. ServiceConnection</string>
+
+    <string name="lesson87_service_title">Service. Локальный биндинг</string>
+
+    <string name="lesson88_service_title">Service. Уведомления - notifications</string>
+
+    <string name="lesson89_content_provider_title">Создаем свой ContentProvider</string>
+
+    <string name="lesson90_touch_event_title">Touch – обработка касания</string>
+    <string name="lesson90_make_a_touch_text">Коснитесь поля и подвигайте по нему пальцем...</string>
+
+    <string name="lesson91_multitouch_title">MultiTouch – обработка множественных касаний</string>
+
+    <string name="lesson92_fragments_title">Android 3. Fragments. Lifecycle</string>
+
+    <string name="lesson93_fragments_title">Android 3. Fragments. Динамическая работа</string>
+
+    <string name="lesson94_fragments_title">Android 3. Fragments. Взаимодействие с Activity</string>
+
+    <string name="lesson95_action_bar_title">Android 3. ActionBar. Размещение элементов</string>
+
+    <string name="lesson96_action_bar_title">Android 3. ActionBar. Навигация - табы и выпадающий список</string>
+
+    <string name="lesson97_fragments_title">Android 3. Fragments. ListFragment - список</string>
+
+    <string name="lesson98_fragments_title">Android 3. Fragments. DialogFragment - диалог</string>
+
+    <string name="lesson99_fragments_title">Android 3. Fragments. PreferenceFragment - настройки. Headers</string>
+    <string name="lesson99_list1_text">List 1</string>
+    <string name="lesson99_list2_text">List 2</string>
+    <string name="lesson99_screen1_text">Screen 1</string>
+    <string name="lesson99_screen2_text">Screen 2</string>
+    <string name="lesson99_header1_text">Header 1</string>
+    <string name="lesson99_header2_text">Header 2</string>
+    <string name="lesson99_header3_text">Header 3</string>
+    <string name="lesson99_checkbox1_text">CheckBox 1</string>
+    <string name="lesson99_edittext1_text">EditText 1</string>
+    <string name="lesson99_category1_text">Category 1</string>
+    <string name="lesson99_category2_text">Category 2</string>
+    <string name="lesson99_checkbox2_text">CheckBox 2</string>
+    <string name="lesson99_edittext2_text">EditText 2</string>
+    <string name="lesson99_list1_summary_text">Summary of List 1</string>
+    <string name="lesson99_list2_summary_text">Summary of List 2</string>
+    <string name="lesson99_screen1_summary_text">Summary of Screen 1</string>
+    <string name="lesson99_screen2_summary_text">Summary of Screen 2</string>
+    <string name="lesson99_header1_summary_text">Summary of Header 1</string>
+    <string name="lesson99_header2_summary_text">Summary of Header 2</string>
+    <string name="lesson99_header3_summary_text">Summary of Header 3</string>
+    <string name="lesson99_checkbox1_summary_text">Summary of CheckBox 1</string>
+    <string name="lesson99_edittext1_summary_text">Summary of EditText 1</string>
+    <string name="lesson99_checkbox2_summary_text">Summary of CheckBox 2</string>
+    <string name="lesson99_edittext2_summary_text">Summary of EditText 2</string>
+
+    <string name="lesson100_actionbar_title">Android 3. ActionBar. Динамическое размещение элементов</string>
+    <string name="lesson100_item31_text">Item 31</string>
+    <string name="lesson100_item32_text">Item 32</string>
+
+    <string name="lesson101_action_mode_title">Android 3. ActionMode, как альтернатива контекстному меню</string>
+
+    <string name="lesson102_support_library_title">Android 3. Библиотека Support Library. Зачем нужна и как ее использовать на примере фрагментов</string>
+
+    <string name="lesson103_multiple_screen_title">Одно приложение на разных экранах</string>
+
+    <string name="lesson104_task_title">Поведение Activity в Task. Intent-флаги, launchMode, affinity</string>
+
+    <string name="lesson105_widget_name">My first widget</string>
+    <string name="lesson105_widget_text">Text in widget</string>
+
+    <string name="lesson106_widget_name">My second widget</string>
+
+    <string name="lesson107_pending_intent_title">PendingIntent – флаги, requestCode. AlarmManager.</string>
+
+    <string name="lesson108_widget_title">Виджеты. Обработка нажатий.</string>
+
+    <!--<string name="lesson109_widget_title">Виджеты. Список.</string>-->
+
+    <!--<string name="lesson110_widget_title">Виджеты. Превью, изменение размера, экран блокировки, ручное обновление.</string>-->
+
+    <string name="lesson125_google_map_title">Google maps. Создание и настройка проекта. Карта, камера, события</string>
+
+
+</resources>

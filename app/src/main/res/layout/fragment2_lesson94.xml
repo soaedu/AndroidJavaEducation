@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV"
+    android:background="#7700ff00" >
+
+    <TextView
+        android:id="@+id/Lesson94_Fragment2_TV"
+        style="@style/WW"
+        android:text="@string/fragment2_text" />
+    <Button
+        android:id="@+id/Lesson94_Fragment2_Btn"
+        style="@style/WW"
+        android:text="@string/log_text" />
+
+</LinearLayout>

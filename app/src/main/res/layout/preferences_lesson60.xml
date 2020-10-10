@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM">
+
+    <CheckBoxPreference
+        android:key="@string/notifications_text"
+        android:summary="@string/lesson60_enable_notifications_text"
+        android:title="@string/notifications_text" />
+    <EditTextPreference
+        android:key="@string/address_text"
+        android:summary="@string/lesson60_address_for_notifications_text"
+        android:title="@string/address_text" />
+
+</PreferenceScreen>

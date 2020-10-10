@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="Preferences_Fragment_Chb1"
+        android:summary="@string/lesson99_checkbox1_summary_text"
+        android:title="@string/lesson99_checkbox1_text" />
+    <EditTextPreference
+        android:key="Preferences_Fragment_Et1"
+        android:summary="@string/lesson99_edittext1_summary_text"
+        android:title="@string/lesson99_edittext1_text" />
+    <ListPreference
+        android:entries="@array/pref_entries"
+        android:entryValues="@array/pref_entry_values"
+        android:key="Preferences_Fragment_List"
+        android:summary="@string/lesson99_list1_summary_text"
+        android:title="@string/lesson99_list1_text" />
+
+</PreferenceScreen>

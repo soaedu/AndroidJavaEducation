@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Lesson32_ListItem_TV"
+    style="@style/MW"
+    android:gravity="center_horizontal"
+    android:padding="5dp"
+    android:textColor="#006fff"
+    android:textSize="24sp"
+    android:text="@string/text_view_text" />

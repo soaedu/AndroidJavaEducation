@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM">
+
+    <TextView
+        android:id="@+id/Lesson109_ItemText_TV"
+        style="@style/MW"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

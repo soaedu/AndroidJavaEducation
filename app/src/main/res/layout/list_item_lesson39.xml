@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV"
+    android:background="@color/lesson39_grey">
+
+    <LinearLayout
+        android:id="@+id/Lesson39_Load_LL"
+        style="@style/MWV">
+
+        <TextView
+            android:id="@+id/Lesson39_Load_TV"
+            style="@style/WW"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:text="@string/text_view_text" />
+        <ProgressBar
+            android:id="@+id/Lesson39_Load_PB"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:max="100" />
+
+    </LinearLayout>
+
+</LinearLayout>

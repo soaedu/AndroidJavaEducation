@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MM"
+    android:background="#9999"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/Lesson109_Update_TV"
+        style="@style/MW"
+        android:layout_alignParentTop="true"
+        android:background="#3300ff00"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <ListView
+        android:id="@+id/Lesson109_List"
+        style="@style/MM"
+        android:layout_below="@id/Lesson109_Update_TV" />
+
+</RelativeLayout>

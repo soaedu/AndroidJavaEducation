@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV">
+
+    <RadioGroup
+        android:id="@+id/Lesson106_Color_RG"
+        style="@style/WW">
+
+        <RadioButton
+            android:id="@+id/Lesson106_Red_RB"
+            style="@style/WW"
+            android:checked="true"
+            android:text="@string/red_text" />
+        <RadioButton
+            android:id="@+id/Lesson106_Green_RB"
+            style="@style/WW"
+            android:text="@string/green_text" />
+        <RadioButton
+            android:id="@+id/Lesson106_Blue_RB"
+            style="@style/WW"
+            android:text="@string/blue_text" />
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/Lesson106_ET"
+        style="@style/MW"
+        android:ems="10">
+        <requestFocus>
+        </requestFocus>
+    </EditText>
+    <Button
+        style="@style/WW"
+        android:onClick="onClick"
+        android:text="@string/ok_text" />
+
+</LinearLayout>

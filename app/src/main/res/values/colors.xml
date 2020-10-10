@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0077ba</color>
+    <color name="colorPrimaryDark">#0067a1</color>
+    <color name="colorAccent">#fdfdfe</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="top_ll_blue">#336699</color>
+    <color name="bottom_ll_green">#339966</color>
+
+    <color name="lesson39_grey">#9C9C9C</color>
+    <color name="lesson39_Red">#33FF0000</color>
+    <color name="lesson39_orange">#33FFFF00</color>
+    <color name="lesson39_green">#3300FF00</color>
+
+</resources>

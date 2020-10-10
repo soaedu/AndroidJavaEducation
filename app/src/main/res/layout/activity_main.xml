@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.sostrovsky.androidjavaedu.Main_Activity"
+    style="@style/MMV">
+
+    <LinearLayout style="@style/Navigation_LL">
+
+        <View style="@style/One_Row_Strut"/>
+        <TextView
+            android:id="@+id/Main_Activity_TitleTV"
+            style="@style/Navigation_Title_TV"
+            android:text="@string/app_name" />
+        <View style="@style/One_Row_Strut"/>
+
+    </LinearLayout>
+    <TextView
+        style="@style/MW"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:text="@string/title_text" />
+    <ListView
+        android:id="@+id/Main_Activity_LV"
+        style="@style/MW"
+        android:padding="5dp" />
+
+</LinearLayout>

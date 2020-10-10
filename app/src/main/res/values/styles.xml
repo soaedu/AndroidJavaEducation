@@ -1,0 +1,102 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ActionBarTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
+    </style>
+
+    <style name="ActionBatThemeLight" parent="Theme.AppCompat.Light">
+
+    </style>
+
+    ////////////////////////////////////////////////////////////////////////////////////////
+
+    <style name="MM">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MW">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WM">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WW">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    ////////////////////////////////////////////////////////////////////////////////////////
+
+    <style name="MMV" parent="@style/MM">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MWV" parent="@style/MW">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MMH" parent="@style/MM">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MWH" parent="@style/MW">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WWV" parent="@style/WW">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    ////////////////////////////////////////////////////////////////////////////////////////
+
+    <style name="Standard_IV">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="One_Row_Strut" parent="@style/WW">
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Image_Wrap" parent="@style/WW">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    ////////////////////////////////////////////////////////////////////////////////////////
+
+    <style name="Navigation_LL" parent="@style/MWH">
+        <item name="android:height">50dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="Navigation_Title_TV" parent="@style/WW">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Navigation_ArrowBack_IV" parent="@style/Standard_IV">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:src">@drawable/arrow_back_icon</item>
+    </style>
+
+
+</resources>

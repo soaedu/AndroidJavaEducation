@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV">
+
+    <TextView
+        style="@style/WW"
+        android:text="@string/list_of_numbers_text" />
+    <ListView
+        android:id="@id/android:list"
+        style="@style/MM" />
+    <TextView
+        android:id="@id/android:empty"
+        style="@style/MM"
+        android:gravity="center"
+        android:text="@string/no_data_text" />
+
+</LinearLayout>

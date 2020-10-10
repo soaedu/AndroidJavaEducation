@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MMV">
+
+    <TextView
+        android:id="@+id/Lesson108_Time_TV"
+        style="@style/MW"
+        android:background="#fff"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/Lesson108_Count_TV"
+        style="@style/MW"
+        android:background="#fff"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/Lesson108_PressConfig_TV"
+        style="@style/MW"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#66ff0000"
+        android:gravity="center"
+        android:text="@string/config_text"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/Lesson108_PressUpdate_TV"
+        style="@style/MW"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#6600ff00"
+        android:gravity="center"
+        android:text="@string/update_text"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/Lesson108_PressCount_TV"
+        style="@style/MW"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#660000ff"
+        android:gravity="center"
+        android:text="@string/count_text"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/Lesson108_ShowWebPage_TV"
+        style="@style/MW"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#668000ff"
+        android:gravity="center"
+        android:text="@string/show_web_text"
+        android:textColor="#000" />
+
+</LinearLayout>

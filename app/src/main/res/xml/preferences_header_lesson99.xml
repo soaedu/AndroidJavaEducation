@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="edu.sostrovsky.androidjavaedu.Lesson99_Fragment1"
+        android:icon="@android:drawable/ic_menu_call"
+        android:summary="@string/lesson99_header1_summary_text"
+        android:title="@string/lesson99_header1_text" />
+    <header
+        android:fragment="edu.sostrovsky.androidjavaedu.Lesson99_Fragment2"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:summary="@string/lesson99_header2_summary_text"
+        android:title="@string/lesson99_header2_text" />
+    <header
+        android:icon="@android:drawable/ic_menu_view"
+        android:summary="@string/lesson99_header3_summary_text"
+        android:title="@string/lesson99_header3_text">
+
+        <intent
+            android:action="android.settings.DISPLAY_SETTINGS" />
+
+    </header>
+
+</preference-headers>
