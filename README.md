@@ -1,1 +1,2 @@
-Обучающий курс по Андроид.
+# AndroidJavaEducation
+Mobile application that contains a bundle of code with android sdk usage.
